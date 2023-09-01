@@ -1,0 +1,101 @@
+header {
+    margin: 12.5% 15% 0% 15%;
+    border: 3px solid whitesmoke;
+    padding: 20px;
+}
+.me {
+    color: teal;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h2 {
+    color: rgb(190, 64, 131);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.fade {
+    color: #0000007e;
+}
+section {
+    margin: 0% 15% 10% 15%;
+    display: flex;
+    color: #fff;
+}
+.sub{
+    border: 2px solid teal;
+    background-color: teal;
+    width: 50%;
+    padding: 20px;
+}
+.why{
+    border: 1px solid rgba(2, 112, 112, 0.805);
+    background-color: rgba(2, 112, 112, 0.805);
+    width: 50%;
+    padding: 20px;
+}
+.highlight {
+    font-size: 40px;
+    font-weight: 900;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+[type="submit"] {
+    padding: 10px 70px;
+    background-color: rgb(178, 232, 96);
+    border: 2px solid rgb(164, 217, 83);
+    color: #fff;
+    border-radius: 10px;
+}
+[type="submit"]:hover {
+    background-color: pink;
+    border: 2px solid pink;
+}
+.box {
+    border: 3px solid whitesmoke;
+    margin: 50px 10% 50px 10%;
+    display: flex;
+    justify-content:flex-start;
+}
+img {
+    width: 50%;
+    height: 75vh;
+    overflow:scroll;
+}
+form {
+    padding: 30px;
+}
+[type="get"] {
+    background-color: rgba(205, 74, 181, 0.652);
+    border: 1px solid rgba(205, 74, 181, 0.652);
+    padding: 10px 60px;
+    color: #fff;
+    border-radius: 20px;
+}
+[type="get"]:hover {
+    background-color: skyblue;
+}
+[type="text"] {
+    width: 50vh;
+    border-top-style:hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+}
+[type="reset"] {
+    border: 0.5px solid whitesmoke;
+    background-color: white;
+    padding-left: 40%;
+}
+[for="fullname"] {
+    color: #000000a1;
+}
+[for="email"] {
+    color: #000000a1;
+}
+[for="username"] {
+    color: #000000a1;
+}
+[for="password"] {
+    color: #000000a1;
+}
+[for="repeatpassword"] {
+    color: #000000a1;
+}
