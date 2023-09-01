@@ -1,3 +1,7 @@
+@media (min-width: 600px) {
+    main {
+        flex-wrap: nowrap;
+    }
 header {
     margin: 12.5% 15% 0% 15%;
     border: 3px solid whitesmoke;
@@ -57,11 +61,12 @@ section {
 }
 img {
     width: 50%;
-    height: 75vh;
+    height: 80vh;
     overflow:scroll;
 }
 form {
     padding: 30px;
+    height: 70vh;
 }
 [type="get"] {
     background-color: rgba(205, 74, 181, 0.652);
