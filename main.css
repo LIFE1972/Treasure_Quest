@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 header {
     margin: 12.5% 15% 0% 15%;
     border: 3px solid whitesmoke;
@@ -54,15 +59,22 @@ section {
     margin: 50px 10% 50px 10%;
     display: flex;
     justify-content:flex-start;
+    min-width: 200px;
+    min-height: auto;
 }
 img {
-    width: 50%;
-    height: 80vh;
-    overflow:scroll;
+    width: 40%;
+    height: auto;
+    overflow: hidden;
 }
 form.jagaban {
     padding: 30px;
-    height: 70vh;
+    width: 50%;
+    height: auto;
+    margin-left: 0;
+}
+.button {
+    display: flex;
 }
 [type="get"] {
     background-color: rgba(205, 74, 181, 0.652);
@@ -83,7 +95,7 @@ form.jagaban {
 [type="reset"] {
     border: 0.5px solid whitesmoke;
     background-color: white;
-    padding-left: 40%;
+    padding-left: 20%;
 }
 [for="fullname"] {
     color: #000000a1;
@@ -99,4 +111,9 @@ form.jagaban {
 }
 [for="repeatpassword"] {
     color: #000000a1;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
