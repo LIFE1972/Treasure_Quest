@@ -59,7 +59,7 @@ section {
     margin: 50px 10% 50px 10%;
     display: flex;
     justify-content:flex-start;
-    min-width: 200px;
+    min-width: 250px;
     min-height: auto;
 }
 img {
@@ -87,7 +87,9 @@ form.jagaban {
     background-color: skyblue;
 }
 [type="text"] {
-    width: 50vh;
+    width: 100%;
+    min-width: 100px;
+    min-height: auto;
     border-top-style:hidden;
     border-right-style: hidden;
     border-left-style: hidden;
